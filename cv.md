@@ -1,6 +1,10 @@
 # CV KIRILL BELKOV
+
+![Kirill Belkov photo](./img/cropped-IMG_20211104_174744.jpg "Kirill Belkov")
 # Junior front-end developer
-*********
+
+====
+
 ## About me:
 Age        | 34
 
@@ -9,10 +13,13 @@ Country    | Finland
 E-mail     | plyushevo@gmail.com
 
 p/n        | +358451891023
------
+
+====
+
 [https://github.com/Plyushevo]("github")
 
 [t.me/plyushevo]("Telegram")
+
 ====
 
 ## who am I
@@ -20,6 +27,7 @@ p/n        | +358451891023
 I have always had a passion for mathematics and logic, and I have dreamt of becoming a programmer. That's why I have chosen a career path as a front-end developer. From my current job, I have gained knowledge about the workings of a front-end developer and the skills required for the role.
 
 I am capable of managing my time effectively, allocating it for work and learning. I possess excellent teamwork skills and understand the importance of following instructions diligently.
+
 ====
 
 ## Skills
@@ -32,10 +40,12 @@ I am capable of managing my time effectively, allocating it for work and learnin
 * Figma
 * Trello
 * ClickUp
+
 ====
 
 ## Code example:
 [https://github.com/Plyushevo/Travel]("landing page with sass")
+
 ====
 ## Work experience:
 
@@ -47,6 +57,7 @@ Business development manager @BRICK IT company
 **2015-2019**
 
 Pharm representative (sales)
+
 ====
 
 ## Education:
