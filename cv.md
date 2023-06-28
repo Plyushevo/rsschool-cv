@@ -1,19 +1,19 @@
 # CV KIRILL BELKOV
 
-![Kirill Belkov photo](./img/cropped-IMG_20211104_174744.jpg "Kirill Belkov")
+![Kirill Belkov photo](./img/cropped-IMG_20211104_174744.jpg =100x "Kirill Belkov")
 # Junior front-end developer
 
 ## About me:
 
 -----------|:-------:
-Country    |  Finland
-E-mail     |  plyushevo@gmail.com
-p/n        |  +358451891023
-Age        |  34
+Country    |:  Finland:
+E-mail     |:  plyushevo@gmail.com:
+p/n        |:  +358451891023:
+Age        |:  34:
 
-[https://github.com/Plyushevo]("github")
+[Github](https://github.com/Plyushevo "github link")
 
-[t.me/plyushevo]("Telegram")
+[Telegram](t.me/plyushevo "telegram link")
 
 ## who am I
 
@@ -37,7 +37,7 @@ I am capable of managing my time effectively, allocating it for work and learnin
 
 
 ## Code example:
-[https://github.com/Plyushevo/Travel]("landing page with sass")
+[landing page with sass](https://github.com/Plyushevo/Travel "school project for travel web-site")
 
 
 ## Work experience:
