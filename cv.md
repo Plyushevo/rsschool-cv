@@ -3,24 +3,17 @@
 ![Kirill Belkov photo](./img/cropped-IMG_20211104_174744.jpg "Kirill Belkov")
 # Junior front-end developer
 
-====
-
 ## About me:
-Age        | 34
 
-Country    | Finland
-
-E-mail     | plyushevo@gmail.com
-
-p/n        | +358451891023
-
-====
+-----------|:-------:
+Country    |  Finland
+E-mail     |  plyushevo@gmail.com
+p/n        |  +358451891023
+Age        |  34
 
 [https://github.com/Plyushevo]("github")
 
 [t.me/plyushevo]("Telegram")
-
-====
 
 ## who am I
 
@@ -28,7 +21,7 @@ I have always had a passion for mathematics and logic, and I have dreamt of beco
 
 I am capable of managing my time effectively, allocating it for work and learning. I possess excellent teamwork skills and understand the importance of following instructions diligently.
 
-====
+
 
 ## Skills
 
@@ -41,12 +34,12 @@ I am capable of managing my time effectively, allocating it for work and learnin
 * Trello
 * ClickUp
 
-====
+
 
 ## Code example:
 [https://github.com/Plyushevo/Travel]("landing page with sass")
 
-====
+
 ## Work experience:
 
 **2019-current**
@@ -58,7 +51,7 @@ Business development manager @BRICK IT company
 
 Pharm representative (sales)
 
-====
+
 
 ## Education:
 **2023-2025** Varian college - Finland
