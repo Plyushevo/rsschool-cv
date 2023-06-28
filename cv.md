@@ -36,7 +36,7 @@ I am capable of **managing my time effectively**, allocating it for work and lea
 [landing page with sass](https://github.com/Plyushevo/Travel "school project for travel web-site")
 ---
 ```
-{<section class="preview">
+<section class="preview">
     <header class="header">
         <div class="wrapper header__wrapper">
             <a href="#" class="logo"><img src="./img/logos/Logo.png" alt="Logo"></a>
@@ -63,7 +63,7 @@ I am capable of **managing my time effectively**, allocating it for work and lea
             </form>
         </div>
     </div>
-</section>}
+</section>
 ```
 ## Work experience:
 
