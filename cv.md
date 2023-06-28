@@ -4,6 +4,7 @@
 # Junior front-end developer
 
 ## About me:
+| info | info |
 |-----------|---------|
 |Country    |Finland|
 |E-mail     |plyushevo@gmail.com|
@@ -62,8 +63,7 @@ I am capable of **managing my time effectively**, allocating it for work and lea
             </form>
         </div>
     </div>
-</section>
-`
+</section>`
 
 ## Work experience:
 
