@@ -1,6 +1,6 @@
 # CV KIRILL BELKOV
 
-![Kirill Belkov photo](./img/cropped-IMG_20211104_174744.jpg =100x "Kirill Belkov")
+![Kirill Belkov photo](./img/cropped-IMG_20211104_174744.jpg =100x100 "Kirill Belkov")
 # Junior front-end developer
 
 ## About me:
