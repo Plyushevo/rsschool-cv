@@ -4,12 +4,12 @@
 # Junior front-end developer
 
 ## About me:
-|          |           | 
------------|:---------:|
-Country    |:Finland:|
-E-mail     |:plyushevo@gmail.com: |
-p/n        |:+358451891023: |
-Age        |:34:|
+
+|-----------|---------|
+|Country    |Finland|
+|E-mail     |plyushevo@gmail.com|
+|p/n        |+358451891023|
+|Age        |34|
 
 ## Social media links
 
@@ -22,9 +22,6 @@ Age        |:34:|
 I have always had a passion for mathematics and logic, and I have dreamt of becoming a programmer. That's why I have chosen a career path as a front-end developer. From my current job, I have gained knowledge about the workings of a front-end developer and the skills required for the role.
 
 I am capable of ==managing my time effectively==, allocating it for work and learning. I possess excellent ==teamwork skills== and understand the importance of following instructions diligently.
-
-
-
 ## Skills
 
 * HTML
