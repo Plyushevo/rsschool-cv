@@ -1,6 +1,81 @@
 /* !!!transfer imgs to assets folder!!! */
+/* some constants: */
 
-
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
+    color: #0F5B5D;
+    font-family: "DM Sans", sans-serif;
 }
+
+.wrapper {
+    width: 1320px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.divider-bright {
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    padding-right: 13px;
+    height: 33px;
+    background-image: linear-gradient(to left, #95FCFF, white)
+}
+
+
+
+/* header style starts */
+
+.header {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 44px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+.navigation__list{
+    color: #0B4445;
+    display: flex;
+    padding: 0;
+}
+
+.navigation__link {
+    padding-right: 57px;
+    cursor: pointer;
+
+}
+
+.navigation__link>a {
+    text-decoration: none;
+}
+
+/* header style ends */
+
+.main-container {
+    display: flex;
+}
+
+aside {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to left, #167E85 , white);
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+}
+
