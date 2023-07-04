@@ -1,7 +1,5 @@
 /* !!!transfer imgs to assets folder!!! */
 
-/* !!!group divider properties together!! */
-
 /*constant styles start: */
 
 * {
@@ -10,6 +8,8 @@
 
 h3 {
     margin: 0;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 body {
@@ -27,35 +27,6 @@ ul {
     list-style: none;
 }
 
-.divider-bright {
-    display: flex;
-    align-items:center;
-    justify-content: flex-end;
-    padding-right: 13px;
-    height: 33px;
-    background-image: linear-gradient(to left, #95FCFF, white)
-}
-
-h3 {
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.divider-dark {
-    display: flex;
-    align-items:center;
-    justify-content: flex-start;
-    padding-left: 13px;
-    height: 33px;
-    background-image: linear-gradient(to right, #167E85, white);
-}
-
-.divider-dark>h3 {
-    color: #95FCFF;
-}
-
 /*constant styles end: */
 
 /* header style starts */
@@ -69,12 +40,11 @@ h3 {
     align-items: center;
     justify-content: flex-end;
     height: 44px;
-    font-family: "DM Sans", sans-serif;
     font-size: 16px;
 }
 
 .navigation__list{
-    color: #0B4445;
+    color: #0F5B5D;
     display: flex;
     padding: 0;
 }
@@ -82,24 +52,43 @@ h3 {
 .navigation__link {
     padding-right: 57px;
     cursor: pointer;
-
 }
 
 .navigation__link>a {
     text-decoration: none;
-    color: #0B4445;
+    color: #0F5B5D;
     font-weight: 700;
-    
 }
 
 /* header style end */
 
 /* main style start */
 
+.divider {
+    display: flex;
+    align-items:center;
+    height: 33px;
+}
+
+.divider-bright {
+    justify-content: flex-end;
+    padding-right: 13px;
+    background-image: linear-gradient(to left, #95FCFF, white)
+}
+
+.divider-dark {
+    justify-content: flex-start;
+    padding-left: 13px;
+    background-image: linear-gradient(to right, #167E85, white);
+}
+
+.divider-dark>h3 {
+    color: #95FCFF;
+}
+
 .main-container {
     display: flex;
 }
-
 
 /* aside style start  */
 
@@ -183,10 +172,7 @@ aside {
     color: #95FCFF;
     text-align: right;
     font-size: 24px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .education__school-info {
@@ -194,12 +180,8 @@ aside {
     padding: 0;
     text-align: right;
     font-size: 24px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
-
 
 /* aside skills style */
 
@@ -208,13 +190,9 @@ aside {
 }
 
 .aside_skills_list_item>p {
-    color: #0F5B5D;
     text-align: right;
     font-size: 20px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -254,17 +232,12 @@ aside {
     background-color: #0B4445;
 }
 
-
 /* languages style start  */
 
 .aside_language_list_item {
-    color: #0F5B5D;
     text-align: right;
     font-size: 24px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 /* right column style start */
@@ -272,8 +245,6 @@ aside {
     display: flex;
     flex-direction: column;
 }
-
-
 
 .name {
     display: flex;
@@ -285,17 +256,13 @@ aside {
 }
 
 .name>h1 {
-    margin-bottom: 0;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
     margin: 0;
-
+    font-size: 48px;
+    font-weight: 400;
 }
 
 .name>h2 {
     margin-top: 12px;
-    font-style: normal;
     font-weight: 400;
 }
 
@@ -313,11 +280,7 @@ aside {
 .main__about-me_paragraph {
     color: #0F5B5D;
     font-size: 24px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    /* padding-bottom: 7px; */
     margin: 0;
 }
 .main__about-me_paragraph:first-child {
@@ -330,36 +293,24 @@ aside {
     margin: 57px 0;
 }
 
-.main__list_item>h3 {
-    color: #0F5B5D;
+.main__list_item {
     font-size: 24px;
-    font-family: DM Sans;
-    font-style: normal;
+}
+
+.main__list_item>h3 {
     font-weight: 700;
-    line-height: normal;
-    margin-bottom: 0;
 }
 
 .main__list_item>p {
-    color: #0F5B5D;
-    font-size: 24px;
-    font-family: DM Sans;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     margin-top: 0;
 }
-
-/* .projects {
-    min-height: 424px;
-} */
-
 
 /* code example style */
 
 pre {
     padding: 39px;
-        font-size: 12px;
+    font-size: 12px;
 }
 
 /* main style end */
