@@ -1,6 +1,10 @@
 /* !!!transfer imgs to assets folder!!! */
 
 /* !!!group divider properties together!! */
+/* 
+fix!!! .projects {
+    min-height: 424px;
+} */
 
 /*constant styles start: */
 
@@ -84,11 +88,9 @@ h3 {
     text-decoration: none;
     color: #0B4445;
     font-weight: 700;
+    
 }
 
-.navigation__link>a {
-    text-decoration: none;
-}
 
 /* header style end */
 
@@ -98,6 +100,9 @@ h3 {
     display: flex;
 }
 
+
+/* aside style start  */
+/* aside general  */
 aside {
     width: 540px;
     display: flex;
@@ -105,12 +110,88 @@ aside {
     background-image: linear-gradient(to left, #167E85 , white);
 }
 
+/* aside contacts  */
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 39px;
+    color: #0F5B5D;
+    text-align: right;
+    font-size: 24px;
+}
+
+.aside_contacts_list_item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 39px;
+}
+
+.aside_contacts_list_item:last-child {
+    margin-bottom: 0;
+}
+
+.aside_contacts_list_item>a, p {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #0B4445;
+}
+
+/* aside education  */
+.education__info {
+    margin: 50px 0 49px 0;
+    padding-right: 39px;
+}
+
+.aside_education_list {
+    margin: 0;
+    padding: 0;
+}
+
+.aside_education_list_item {
+    padding-bottom: 23px;
+}
+
+.aside_education_list_item:last-child {
+    padding: 0;
+}
+
+.year {
+    margin: 0;
+    color: #95FCFF;
+    text-align: right;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.education__school-info {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* right column style start */
+
+
+
+
 .right-column {
     display: flex;
     flex-direction: column;
 }
 
-/* right column style start */
+
 
 .name {
     display: flex;
@@ -142,6 +223,7 @@ aside {
 
 .main__about-me {
     padding-left: 39px;
+    margin: 57px 0 58px 0;
 }
 
 .main__about-me_paragraph {
@@ -151,7 +233,11 @@ aside {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-bottom: 7px;
+    /* padding-bottom: 7px; */
+    margin: 0;
+}
+.main__about-me_paragraph:first-child {
+    margin-bottom: 29px;
 }
 
 /* projects style */
@@ -177,7 +263,7 @@ aside {
 }
 
 .projects {
-    min-height: 379px;
+    min-height: 424px;
 }
 
 
@@ -193,7 +279,8 @@ pre {
 /* footer style start  */
 
 .footer {
-    box-shadow: 0px 4px 4px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px -4px 4px 0 rgba(0, 0, 0, 0.25);
+    overflow: auto;
 }
 
 .footer__wrapper {
@@ -223,4 +310,8 @@ pre {
 }
 .footer__list_item {
     padding-right: 72px;
+}
+
+aside {
+    /* z-index: -1; */
 }
