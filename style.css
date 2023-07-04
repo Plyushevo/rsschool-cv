@@ -1,10 +1,6 @@
 /* !!!transfer imgs to assets folder!!! */
 
 /* !!!group divider properties together!! */
-/* 
-fix!!! .projects {
-    min-height: 424px;
-} */
 
 /*constant styles start: */
 
@@ -15,8 +11,6 @@ fix!!! .projects {
 h3 {
     margin: 0;
 }
-
-p {}
 
 body {
     margin: 0;
@@ -98,7 +92,6 @@ h3 {
     
 }
 
-
 /* header style end */
 
 /* main style start */
@@ -110,7 +103,7 @@ h3 {
 
 /* aside style start  */
 
-/* profiel photo style */
+/* profile photo style */
 
 figure {
     margin: 45px 60px 45px 96px;
@@ -118,19 +111,20 @@ figure {
     height: 384px;
 }
 
-/* aside general  */
+/* aside general */
 aside {
     width: 540px;
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to left, #167E85 , white);
+    z-index: -1; /* to show shodow from hader and footer above pannel*/
 }
 
 .aside__info {
-    padding-right: 39px;
+    padding-right: 39px; /* main gap between content and border*/
 }
 
-/* aside contacts  */
+/* aside contacts style */
 
 .contacts {
     display: flex;
@@ -139,6 +133,10 @@ aside {
     color: #0F5B5D;
     text-align: right;
     font-size: 24px;
+}
+.aside_contacts_list {
+    margin: 43px 0 42px 0;
+    max-height: 400px;
 }
 
 .aside_contacts_list_item {
@@ -156,6 +154,10 @@ aside {
     padding-right: 20px;
     text-decoration: none;
     color: #0B4445;
+}
+
+.aside_contacts_list_item_paragraph {
+    margin: 0;
 }
 
 /* aside education  */
@@ -305,7 +307,7 @@ aside {
 
 .main__about-me {
     padding-left: 39px;
-    margin: 73px 0;
+    margin: 61px 0 62px 0;
 }
 
 .main__about-me_paragraph {
@@ -366,38 +368,39 @@ pre {
 
 .footer {
     box-shadow: 0px -4px 4px 0 rgba(0, 0, 0, 0.25);
-    overflow: auto;
+    height: 44px;
 }
 
 .footer__wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 44px;
     margin: auto;
 }
 
-
-
 .footer__list {
     display: flex;
-    padding: auto;
-
-}
-
-.footer__list {
-    display: flex;
-    margin: 0;
     padding: 0;
+    margin: 7px 0;
 }
 
-.footer__list_item>h3 {
-    margin: 0;
-}
 .footer__list_item {
     padding-right: 72px;
 }
 
-aside {
-    /* z-index: -1; */
+.footer__list_item>h3 {
+    display: block;
+}
+
+.footer__list_item>img {
+    margin: 0;
+}
+
+.footer__list_item>a {
+    display: block;
+    height: 25px;
+}
+
+.footer__list_item:last-child {
+    padding: 0;
 }
