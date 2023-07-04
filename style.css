@@ -11,6 +11,13 @@ fix!!! .projects {
 * {
     box-sizing: border-box;
 }
+
+h3 {
+    margin: 0;
+}
+
+p {}
+
 body {
     margin: 0;
     color: #0F5B5D;
@@ -102,6 +109,15 @@ h3 {
 
 
 /* aside style start  */
+
+/* profiel photo style */
+
+figure {
+    margin: 45px 60px 45px 96px;
+    width: 384px;
+    height: 384px;
+}
+
 /* aside general  */
 aside {
     width: 540px;
@@ -110,13 +126,16 @@ aside {
     background-image: linear-gradient(to left, #167E85 , white);
 }
 
+.aside__info {
+    padding-right: 39px;
+}
+
 /* aside contacts  */
 
 .contacts {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right: 39px;
     color: #0F5B5D;
     text-align: right;
     font-size: 24px;
@@ -141,8 +160,7 @@ aside {
 
 /* aside education  */
 .education__info {
-    margin: 50px 0 49px 0;
-    padding-right: 39px;
+    margin: 42px 0 43px 0;
 }
 
 .aside_education_list {
@@ -181,11 +199,73 @@ aside {
 }
 
 
+/* aside skills style */
+
+.aside_skills_list {
+    margin: 45px 0;
+}
+
+.aside_skills_list_item>p {
+    color: #0F5B5D;
+    text-align: right;
+    font-size: 20px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.aside_skills_list_item {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.aside_skills_list_item:last-child {
+    margin-bottom: 0;
+}
+
+.skill-list {
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+}
+
+/* skill circles style  */
+
+.skill-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.can {
+    background-color: #95FCFF;
+}
+
+.cant {
+    background-color: #0B4445;
+}
+
+
+/* languages style start  */
+
+.aside_language_list_item {
+    color: #0F5B5D;
+    text-align: right;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 /* right column style start */
-
-
-
-
 .right-column {
     display: flex;
     flex-direction: column;
@@ -197,8 +277,9 @@ aside {
     display: flex;
     flex-direction: column;
     padding-left: 122px;
-    min-height: 421px;
+    min-height: 474px;
     color: #167E85;
+    padding-top: 45px;
 }
 
 .name>h1 {
@@ -206,6 +287,7 @@ aside {
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
+    margin: 0;
 
 }
 
@@ -223,7 +305,7 @@ aside {
 
 .main__about-me {
     padding-left: 39px;
-    margin: 57px 0 58px 0;
+    margin: 73px 0;
 }
 
 .main__about-me_paragraph {
@@ -241,6 +323,10 @@ aside {
 }
 
 /* projects style */
+
+.main__list {
+    margin: 57px 0;
+}
 
 .main__list_item>h3 {
     color: #0F5B5D;
@@ -262,9 +348,9 @@ aside {
     margin-top: 0;
 }
 
-.projects {
+/* .projects {
     min-height: 424px;
-}
+} */
 
 
 /* code example style */
