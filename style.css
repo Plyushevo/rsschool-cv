@@ -1,5 +1,8 @@
 /* !!!transfer imgs to assets folder!!! */
-/* some constants: */
+
+/* !!!group divider properties together!! */
+
+/*constant styles start: */
 
 * {
     box-sizing: border-box;
@@ -28,7 +31,27 @@ ul {
     background-image: linear-gradient(to left, #95FCFF, white)
 }
 
+h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+.divider-dark {
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    padding-left: 13px;
+    height: 33px;
+    background-image: linear-gradient(to right, #167E85, white);
+}
+
+.divider-dark>h3 {
+    color: #95FCFF;
+}
+
+/*constant styles end: */
 
 /* header style starts */
 
@@ -59,9 +82,17 @@ ul {
 
 .navigation__link>a {
     text-decoration: none;
+    color: #0B4445;
+    font-weight: 700;
 }
 
-/* header style ends */
+.navigation__link>a {
+    text-decoration: none;
+}
+
+/* header style end */
+
+/* main style start */
 
 .main-container {
     display: flex;
@@ -79,3 +110,117 @@ aside {
     flex-direction: column;
 }
 
+/* right column style start */
+
+.name {
+    display: flex;
+    flex-direction: column;
+    padding-left: 122px;
+    min-height: 421px;
+    color: #167E85;
+}
+
+.name>h1 {
+    margin-bottom: 0;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.name>h2 {
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__about-me {
+    padding-left: 39px;
+}
+
+.main__about-me_paragraph {
+    color: #0F5B5D;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 7px;
+}
+
+/* projects style */
+
+.main__list_item>h3 {
+    color: #0F5B5D;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.main__list_item>p {
+    color: #0F5B5D;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.projects {
+    min-height: 379px;
+}
+
+
+/* code example style */
+
+pre {
+    padding: 39px;
+        font-size: 12px;
+}
+
+/* main style end */
+
+/* footer style start  */
+
+.footer {
+    box-shadow: 0px 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    margin: auto;
+}
+
+
+
+.footer__list {
+    display: flex;
+    padding: auto;
+
+}
+
+.footer__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__list_item>h3 {
+    margin: 0;
+}
+.footer__list_item {
+    padding-right: 72px;
+}
