@@ -279,8 +279,8 @@ aside {
 }
 
 .main__about-me {
-    padding-left: 39px;
-    margin: 61px 0 62px 0;
+    padding: 61px 0 62px 39px;
+    min-height: 400px;
 }
 
 .main__about-me_paragraph {
